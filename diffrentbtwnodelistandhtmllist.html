@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+
+    <script>
+
+        let p = document.querySelectorAll(".test");
+        let p1= document.getElementsByClassName("test");
+
+        let div= document.createElement("div");
+
+        div.className="test";
+        document.body.appendChild(div);
+
+        console.log(p.length)
+        console.log(p1.length);
+
+
+    </script>
+    
+</body>
+</html>
